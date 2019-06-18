@@ -4,8 +4,8 @@
   "description": "API for Laga app",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js"
-    "server": "nodemone server.js"
+    "start": "node server.js",
+    "server": "nodemone server.js",
     "client": "npm start --prefix client",
     "dev": "concurrently \"npm run server\" \"npm run client\"",
     "test": "echo \"Error: no test specified\" && exit 1"
